@@ -6,19 +6,26 @@
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <a href="biografia.html">WELCOME</a>
+       <a href="welcome">WORK</a>
+       <a href="contact.html">CONTACT</a>
+</nav>
     <fieldset> 
         <h2><legend>Maneras de estar en contacto:</legend></h2>
-
-        <p><a href="mailto:krisoa.abril@gmail.com">Envíame un mail</a></p>
-
-        <p>Sígueme en <a href="https://www.instagram.com/?hl=es">Instagram</a></p>
+        <ul>
+            <li><a href="mailto:krisoa.abril@gmail.com">Envíame un mail</a></li>
+            <li>Sígueme en <a href="https://www.instagram.com/?hl=es" target="_blank">Instagram</a></li>
+        </ul>
     </fieldset>
 
-    <h2>o bien...</h2><br>
-<label for="mail">Déja tu contacto aquí:</label><br>
-<input type="mail" id="mail" name="mail" placeholder="pepe@gmail.com"><br><br>
-<input type="submit">
-
+    <h2>o bien...</h2>
+   <form>
+        <li><label for="mail">Déja tu email y me pondré en contacto:</label><br></li>
+    
+        <input type="mail" id="mail" name="mail" placeholder="pepe@gmail.com">
+        <input type="submit" value="Enviar">
+    </form>
 
 
 </body>
