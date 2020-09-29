@@ -1,0 +1,28 @@
+body {
+    font-family:"Raleway";
+}
+a{
+    text-decoration: none;
+    margin: 8%;
+}
+nav{
+    text-align: center;
+}
+
+.mujer {
+ background-color: aqua;
+ width: 450px;
+ height: 600px;
+ position: initial;
+}
+img {
+display: block;
+margin-left: 55%;
+}
+
+.index{
+    background-color: crimson;
+    width: 400px;
+    height: 600px;
+    position: initial;
+}
