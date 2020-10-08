@@ -1,33 +1,51 @@
 body {
     font-family:"Raleway";
+    display: flex;
+    flex-direction: column;
 }
 nav{
-    padding: 9px;
+    width: 100%;
+    height: auto;
     border: 5px solid red;
     display: flex;
-   justify-content: space-evenly;
-}
+    flex-direction: row-reverse;
+   }
 a{
     text-decoration: none;
-  
+    font-size: 75%;
+    padding: 3px;
+   
 }
+#logo{
+    font-family: fantasy;
+    display: flex;
+    justify-content: left;
+}
+
 .div-main {
     border: 5px solid red;
     display: flex;
-
-
+    flex-direction: column;
+    width: 100%;
+    height: auto;
  }
-.div-1 {
-    display: flex;
-   border: 5px solid blue;
-   flex-direction: column;
 
-}
-.div-2 {
+.div-2 {   
     border: 5px solid rgb(255, 123, 0);
-  
+    margin: 1px;
+    padding: 9px;
+}
+.ilumujer{
+    width: 100%;
+    height: auto;
 }
 
+.div-1 {
+    border: 5px solid blue;
+    margin: 1px;
+    padding: 15px;
+ }
+ 
 
 
 
